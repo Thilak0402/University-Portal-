@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: portal
-        image: your-dockerhub-username/university-portal:latest
+        image: thilak0402/university-portal:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
